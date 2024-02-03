@@ -30,6 +30,8 @@ export const Projects = () => {
       title: "My Portfolio",
       description: "Build & Deployed",
       imgUrl: projImg3,
+      projectLink: "https://hassanmufez-portfolio.netlify.app/",
+
     },
 
   ];
@@ -87,10 +89,13 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                    <div  style={{ color: 'grey',paddingLeft: '70px', marginLeft: '100px',fontSize:'20px' }}>
+                    <div  style={{ color: 'grey',paddingLeft: '10px',fontSize:'20px' }}>
       <ul>
+      <li>Contributed to front-end and back-end development, ensuring responsive design, efficient data processing, and secure collaboration.
+        </li>
+
         <li>
-        Collaborated on an ERP project using React.js, Html, CSS, Javascript, PHP, Bootstrap ,FileZilla and SQL.
+        Collaborated on an ERP project using React.js, Html, CSS, Javascript, PHP, Bootstrap ,FileZilla, Git, SSH Protocols and SQL.
         </li>
        
         <li>
@@ -108,14 +113,13 @@ export const Projects = () => {
         <li>
         Taking an active role as a Scrum Master or staying informed about the progress of work.        </li>
         
-        <li>Contributed to front-end and back-end development, ensuring responsive design, efficient data processing, and secure collaboration.
-        </li></ul>
+    </ul>
       </div>
 
 
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                    <div  style={{ color: 'grey',paddingLeft: '70px', marginLeft: '100px', fontSize: '20px' }}>
+                    <div  style={{ color: 'grey',paddingLeft: '10px',fontSize:'20px' }}>
       <ul>
         <li>
           Experienced Web Developer with a solid 1 year track record, raising interset in DevOps.

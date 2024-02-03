@@ -14,7 +14,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer","DevOps Engineer","Software Engineer"];
+  const toRotate = ["Web Developer","DevOps Engineer"];
   const period = 400;
 
   useEffect(() => {
@@ -59,7 +59,7 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm Hassan Mufez`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "DevOps Engineer", "Software Engineer" ]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{`Hi! I'm Hassan Mufez`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "DevOps Engineer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Goal-driven professional with a solid background in Web Developer and DevOps engineering. Proficient in troubleshooting and providing technical assistance Along with Db Handling, with expertise in maintaining and optimizing systems with Safe Deployement. Skilled in various support tools and technologies, including Client communication, monitoring tools, and cloud platforms. Demonstrated capability in streamlining processes and ensuring the seamless operation of IT infrastructure.</p>
                   <Router>
                   <HashLink to='#connect'>
