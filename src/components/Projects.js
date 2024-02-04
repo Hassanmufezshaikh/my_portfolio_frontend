@@ -13,6 +13,7 @@ export const Projects = () => {
   const projects = [
 
     {
+      Heading:"Star Fruits",
       title: "Star Fruits",
       description: "Design, Development & Deployed",
       imgUrl: projImg1,
@@ -20,6 +21,7 @@ export const Projects = () => {
     
     },
     {
+      Heading:"Cad Design",
       title: "Cad Design",
       description: "In Progress",
       imgUrl: projImg2,
@@ -27,6 +29,7 @@ export const Projects = () => {
 
     },
     {
+      Heading:"My Portfolio",
       title: "My Portfolio",
       description: "Build & Deployed",
       imgUrl: projImg3,
@@ -62,17 +65,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                       <Row>
   
-                            <Row class="headings">
-                              <Col lg={4} md={12} xl={4}>
-                              <h3 >Star Fruits Landing Page</h3>
-                              </Col>
-                              <Col lg={4} md={12} xl={4}>
-                              <h3 >Cad Design Landing Page</h3>
-                              </Col>
-                              <Col lg={4} md={12} xl={4}>
-                              <h3 >My Portfolio</h3>
-                              </Col>
-                            </Row>
+
                         {
                           
                           projects.map((project, index) => {
